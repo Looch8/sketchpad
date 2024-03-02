@@ -35,3 +35,11 @@ h1 {
 	box-sizing: border-box;
 	background-color: white;
 }
+
+button {
+	text-align: center;
+	margin-left: 23.5%;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
