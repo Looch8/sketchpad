@@ -10,6 +10,7 @@ function createGrid() {
 	for (let i = 0; i < 256; i++) {
 		const div = document.createElement("div");
 		div.classList.add("gridCell");
+		// div.textContent = "x";
 
 		container.appendChild(div);
 	}

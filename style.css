@@ -1,0 +1,26 @@
+body {
+	height: 100vh;
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 45%;
+	justify-content: center;
+	margin: auto;
+	outline: auto;
+	padding: 5vmin;
+	border: solid 20px;
+	background-color: paleturquoise;
+	box-sizing: content-box;
+	border-color: turquoise;
+}
+
+#container > .gridCell {
+	outline: auto;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: white;
+}
