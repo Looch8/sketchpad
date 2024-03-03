@@ -1,10 +1,16 @@
 //query selectors
 const container = document.querySelector("#container");
-const button = document.querySelector("#button-size");
+const button = document.querySelector("#adjust-size");
+
+function getUserInput() {
+	return prompt("Please enter a grid size");
+}
+const userInput = getUserInput();
+button.addEventListener("click", getUserInput);
 
 // create a 16x16 grid
 function createGrid() {
-	for (let i = 0; i < 256; i++) {
+	for (let i = 0; i < userInput; i++) {
 		const div = document.createElement("div");
 		div.classList.add("gridCell");
 
