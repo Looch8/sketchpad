@@ -5,9 +5,9 @@ const button = document.querySelector("#adjust-size");
 function getUserInput() {
 	return prompt("Please enter a grid size");
 }
-const userInput = getUserInput();
-button.addEventListener("click", getUserInput);
 
+button.addEventListener("click", getUserInput);
+let userInput = getUserInput();
 // create a 16x16 grid
 function createGrid() {
 	for (let i = 0; i < userInput; i++) {
